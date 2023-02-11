@@ -1,0 +1,151 @@
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Roboto:wght@100;300;400;500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 400px;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+/* color pallete */
+
+.color-panel1 {
+    background-color: #2c3531;
+    color: white;
+}
+
+.color-panel2 {
+    background-color: #116466;
+    color: white;
+}
+
+.color-panel3 {
+    background-color: #ffffff;
+}
+
+.color-panel4 {
+    background-color: #e5edf1;
+}
+
+.color-panel5 {
+    background-color: #96c2db;
+}
+
+/* fonts and text display */
+.font-1 {
+    font-family: 'Playfair Display';
+    font-size: 24px;
+}
+
+.font-2 {
+    font-family: 'Roboto';
+    font-size: 24px;
+}
+
+.font-3 {
+    font-family: serif;
+    font-size: 24px;
+}
+
+.text-1 {
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.text-2 {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* buttons */
+.button-87 {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: gray;
+  border-radius: 5px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 10px -7px black;
+  background-image: linear-gradient(45deg, #e5edf1 0%, #96c2db  51%, #116466  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+  transition: .1s;
+}
+
+/* links */
+
+.normal-list li {
+    margin: 12px;
+}
+
+.links li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.links li:hover {
+    transition: .3s;
+    transform: translate(-5px, -2px);
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.links li:active {
+    transform: translate(-2px, 5px);
+    transition: .1s;
+}
+
